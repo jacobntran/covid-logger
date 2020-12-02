@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.main_bg {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+      54deg,
+      rgba(120, 144, 156, 0.9) 45%,
+      rgba(255, 179, 0, 0.9) 100%
+    ),
+    url(./assets/group.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.alt_bg {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    54deg,
+    rgba(120, 144, 156, 0.9) 45%,
+    rgba(255, 179, 0, 0.9) 100%
+  );
+}
+
+@media only screen and (max-width: 1280px) {
+  .main_bg {
+    background: linear-gradient(
+        54deg,
+        rgba(120, 144, 156, 0.85) 45%,
+        rgba(255, 179, 0, 0.85) 100%
+      ),
+      url(./assets/alt-group.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}

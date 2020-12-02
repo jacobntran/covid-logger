@@ -1,0 +1,15 @@
+export const REGISTER = 'REGISTER';
+export const LOG_IN = 'LOG_IN';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const LOG_OUT = 'LOG_OUT';
+export const CREATE_EVENT = 'CREATE_EVENT';
+export const LOG_TEST = 'LOG_TEST';
+export const ADD_FRIEND = 'ADD_FRIEND';
+export const USER_LOADED = 'USER_LOADED';
+export const GET_EVENT = 'GET_EVENT';
+export const GET_EVENTS = 'GET_EVENTS';
+export const ADD_USER = 'ADD_USER';
+export const ADD_MESSAGE = 'ADD_MESSAGE';
+export const GET_FRIENDS = 'GET_FRIENDS';
+export const ADD_NOTFICATION = 'ADD_NOTFICATION';
+export const REMOVE_NOTFICATION = 'ADD_NOTFICATION';
