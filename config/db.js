@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const config = require('config');
-const db = config.get('mongoURI') || process.env.MONGODB_URI;
+const db = process.env.MONGODB_URI || config.get('mongoURI');
 
 module.exports = async () => {
   try {

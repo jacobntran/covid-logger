@@ -55,7 +55,7 @@ const Event = ({
   addUser,
 }) => {
   const classes = useStyles();
-  const ENDPOINT = 'http://localhost:3001' || process.env.ENDPOINT;
+  const ENDPOINT = process.env.ENDPOINT || 'http://localhost:3001';
 
   useEffect(() => {
     getUser();
